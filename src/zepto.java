@@ -4,6 +4,7 @@ class product{
     double price;
     int quantity;
     double total_price;
+    int add;
 
     void display(){
         System.out.println("The product name is "+name+" price "+price+" and quantity "+quantity);
